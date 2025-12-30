@@ -3,9 +3,9 @@ namespace LPU
 {
     class Hostels
     {
-        public string HostelName="";
-        public int RoomNo=0;
-        public string Bed="";
+        public string HostelName{get;set;}
+        public int RoomNo{get;set;}
+        public string Bed{get;set;}
 
         public void DisplayHostel()
         {

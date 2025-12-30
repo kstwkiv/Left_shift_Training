@@ -3,10 +3,10 @@ namespace LPU
 {
     class Student
     {
-        public string Sname="";
-        public int RegNo=0;
-        public string Dept="";
-        public string HostelName="";
+        public string Sname{get;set;}
+        public int RegNo{get;set;}
+        public string Dept{get;set;}
+        public string HostelName{get;set;}
 
         public void DisplayStudent()
         {

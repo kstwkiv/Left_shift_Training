@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LPU")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d1c57ebca77e7d0903418402473bf23e8b5025a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e72a4eb986c6f1d520076c5c2b8b662779e1f3c")]
 [assembly: System.Reflection.AssemblyProductAttribute("LPU")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LPU")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
