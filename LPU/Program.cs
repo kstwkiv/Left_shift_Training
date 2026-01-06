@@ -69,7 +69,6 @@ namespace LPU
 
                         s1.HostelName = h1.HostelName;
                         students.Add(s1);
-
                         Console.WriteLine("Student added successfully.");
                         break;
 
