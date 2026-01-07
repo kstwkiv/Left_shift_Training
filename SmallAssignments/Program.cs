@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
+using System.Diagnostics;
 using System.Formats.Asn1;
 using System.Numerics;
 namespace SmallAssignments{
@@ -7,7 +8,7 @@ class Program
 {
     public static void Main(string[] args)
     {
-        double radius=2.5;
+        /*double radius=2.5;
         double answer=CircleArea.Area(radius);
 
         Console.WriteLine(answer);
@@ -28,6 +29,20 @@ class Program
         Largest lar =new Largest();
         int largest=lar.Compare(a,b,c);
         Console.WriteLine("The largest value in "+a+" "+b+" "+c+" is : "+largest);
+        
+
+        int[] nums={3,1,-2,3,0,9,2,-1};
+        int sum=SumPos.Summation(nums);
+        Console.WriteLine(sum);*/
+
+        int n=int.Parse(Console.ReadLine());
+        int[] arr=new int[n];
+        for(int i = 0; i < n; i++)
+            {
+                arr[i]=int.Parse(Console.ReadLine());
+            }
+        iter.Iteration(arr);
+        
     }
 }
 }
