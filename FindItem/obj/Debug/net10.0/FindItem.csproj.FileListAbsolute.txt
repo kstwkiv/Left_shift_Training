@@ -1,0 +1,15 @@
+D:\.net\FindItem\obj\Debug\net10.0\FindItem.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\FindItem\obj\Debug\net10.0\FindItem.AssemblyInfoInputs.cache
+D:\.net\FindItem\obj\Debug\net10.0\FindItem.AssemblyInfo.cs
+D:\.net\FindItem\obj\Debug\net10.0\FindItem.csproj.CoreCompileInputs.cache
+D:\.net\FindItem\obj\Debug\net10.0\FindItem.sourcelink.json
+D:\.net\FindItem\bin\Debug\net10.0\FindItem.exe
+D:\.net\FindItem\bin\Debug\net10.0\FindItem.deps.json
+D:\.net\FindItem\bin\Debug\net10.0\FindItem.runtimeconfig.json
+D:\.net\FindItem\bin\Debug\net10.0\FindItem.dll
+D:\.net\FindItem\bin\Debug\net10.0\FindItem.pdb
+D:\.net\FindItem\obj\Debug\net10.0\FindItem.dll
+D:\.net\FindItem\obj\Debug\net10.0\refint\FindItem.dll
+D:\.net\FindItem\obj\Debug\net10.0\FindItem.pdb
+D:\.net\FindItem\obj\Debug\net10.0\FindItem.genruntimeconfig.cache
+D:\.net\FindItem\obj\Debug\net10.0\ref\FindItem.dll
