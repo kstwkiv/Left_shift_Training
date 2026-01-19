@@ -1,0 +1,15 @@
+D:\.net\TopBrainsAssignments\obj\Debug\net10.0\TopBrainsAssignments.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\TopBrainsAssignments\obj\Debug\net10.0\TopBrainsAssignments.AssemblyInfoInputs.cache
+D:\.net\TopBrainsAssignments\obj\Debug\net10.0\TopBrainsAssignments.AssemblyInfo.cs
+D:\.net\TopBrainsAssignments\obj\Debug\net10.0\TopBrainsAssignments.csproj.CoreCompileInputs.cache
+D:\.net\TopBrainsAssignments\obj\Debug\net10.0\TopBrainsAssignments.sourcelink.json
+D:\.net\TopBrainsAssignments\bin\Debug\net10.0\TopBrainsAssignments.exe
+D:\.net\TopBrainsAssignments\bin\Debug\net10.0\TopBrainsAssignments.deps.json
+D:\.net\TopBrainsAssignments\bin\Debug\net10.0\TopBrainsAssignments.runtimeconfig.json
+D:\.net\TopBrainsAssignments\bin\Debug\net10.0\TopBrainsAssignments.dll
+D:\.net\TopBrainsAssignments\bin\Debug\net10.0\TopBrainsAssignments.pdb
+D:\.net\TopBrainsAssignments\obj\Debug\net10.0\TopBrainsAssignments.dll
+D:\.net\TopBrainsAssignments\obj\Debug\net10.0\refint\TopBrainsAssignments.dll
+D:\.net\TopBrainsAssignments\obj\Debug\net10.0\TopBrainsAssignments.pdb
+D:\.net\TopBrainsAssignments\obj\Debug\net10.0\TopBrainsAssignments.genruntimeconfig.cache
+D:\.net\TopBrainsAssignments\obj\Debug\net10.0\ref\TopBrainsAssignments.dll
