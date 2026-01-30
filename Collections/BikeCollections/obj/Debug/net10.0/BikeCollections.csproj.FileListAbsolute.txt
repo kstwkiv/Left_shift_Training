@@ -1,0 +1,15 @@
+D:\.net\Collections\BikeCollections\bin\Debug\net10.0\BikeCollections.exe
+D:\.net\Collections\BikeCollections\bin\Debug\net10.0\BikeCollections.deps.json
+D:\.net\Collections\BikeCollections\bin\Debug\net10.0\BikeCollections.runtimeconfig.json
+D:\.net\Collections\BikeCollections\bin\Debug\net10.0\BikeCollections.dll
+D:\.net\Collections\BikeCollections\bin\Debug\net10.0\BikeCollections.pdb
+D:\.net\Collections\BikeCollections\obj\Debug\net10.0\BikeCollections.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\Collections\BikeCollections\obj\Debug\net10.0\BikeCollections.AssemblyInfoInputs.cache
+D:\.net\Collections\BikeCollections\obj\Debug\net10.0\BikeCollections.AssemblyInfo.cs
+D:\.net\Collections\BikeCollections\obj\Debug\net10.0\BikeCollections.csproj.CoreCompileInputs.cache
+D:\.net\Collections\BikeCollections\obj\Debug\net10.0\BikeCollections.sourcelink.json
+D:\.net\Collections\BikeCollections\obj\Debug\net10.0\BikeCollections.dll
+D:\.net\Collections\BikeCollections\obj\Debug\net10.0\refint\BikeCollections.dll
+D:\.net\Collections\BikeCollections\obj\Debug\net10.0\BikeCollections.pdb
+D:\.net\Collections\BikeCollections\obj\Debug\net10.0\BikeCollections.genruntimeconfig.cache
+D:\.net\Collections\BikeCollections\obj\Debug\net10.0\ref\BikeCollections.dll
