@@ -1,0 +1,15 @@
+D:\.net\Collections\BakeMeAWish\bin\Debug\net10.0\BakeMeAWish.exe
+D:\.net\Collections\BakeMeAWish\bin\Debug\net10.0\BakeMeAWish.deps.json
+D:\.net\Collections\BakeMeAWish\bin\Debug\net10.0\BakeMeAWish.runtimeconfig.json
+D:\.net\Collections\BakeMeAWish\bin\Debug\net10.0\BakeMeAWish.dll
+D:\.net\Collections\BakeMeAWish\bin\Debug\net10.0\BakeMeAWish.pdb
+D:\.net\Collections\BakeMeAWish\obj\Debug\net10.0\BakeMeAWish.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\Collections\BakeMeAWish\obj\Debug\net10.0\BakeMeAWish.AssemblyInfoInputs.cache
+D:\.net\Collections\BakeMeAWish\obj\Debug\net10.0\BakeMeAWish.AssemblyInfo.cs
+D:\.net\Collections\BakeMeAWish\obj\Debug\net10.0\BakeMeAWish.csproj.CoreCompileInputs.cache
+D:\.net\Collections\BakeMeAWish\obj\Debug\net10.0\BakeMeAWish.sourcelink.json
+D:\.net\Collections\BakeMeAWish\obj\Debug\net10.0\BakeMeAWish.dll
+D:\.net\Collections\BakeMeAWish\obj\Debug\net10.0\refint\BakeMeAWish.dll
+D:\.net\Collections\BakeMeAWish\obj\Debug\net10.0\BakeMeAWish.pdb
+D:\.net\Collections\BakeMeAWish\obj\Debug\net10.0\BakeMeAWish.genruntimeconfig.cache
+D:\.net\Collections\BakeMeAWish\obj\Debug\net10.0\ref\BakeMeAWish.dll
