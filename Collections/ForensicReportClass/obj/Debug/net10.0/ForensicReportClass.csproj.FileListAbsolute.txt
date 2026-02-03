@@ -1,0 +1,5 @@
+D:\.net\Collections\ForensicReportClass\obj\Debug\net10.0\ForensicReportClass.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\Collections\ForensicReportClass\obj\Debug\net10.0\ForensicReportClass.AssemblyInfoInputs.cache
+D:\.net\Collections\ForensicReportClass\obj\Debug\net10.0\ForensicReportClass.AssemblyInfo.cs
+D:\.net\Collections\ForensicReportClass\obj\Debug\net10.0\ForensicReportClass.csproj.CoreCompileInputs.cache
+D:\.net\Collections\ForensicReportClass\obj\Debug\net10.0\ForensicReportClass.sourcelink.json
