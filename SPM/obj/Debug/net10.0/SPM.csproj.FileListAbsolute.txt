@@ -1,0 +1,15 @@
+D:\.net\SPm\obj\Debug\net10.0\SPM.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\SPm\obj\Debug\net10.0\SPM.AssemblyInfoInputs.cache
+D:\.net\SPm\obj\Debug\net10.0\SPM.AssemblyInfo.cs
+D:\.net\SPm\obj\Debug\net10.0\SPM.csproj.CoreCompileInputs.cache
+D:\.net\SPm\obj\Debug\net10.0\SPM.sourcelink.json
+D:\.net\SPM\bin\Debug\net10.0\SPM.exe
+D:\.net\SPM\bin\Debug\net10.0\SPM.deps.json
+D:\.net\SPM\bin\Debug\net10.0\SPM.runtimeconfig.json
+D:\.net\SPM\bin\Debug\net10.0\SPM.dll
+D:\.net\SPM\bin\Debug\net10.0\SPM.pdb
+D:\.net\SPM\obj\Debug\net10.0\SPM.dll
+D:\.net\SPM\obj\Debug\net10.0\refint\SPM.dll
+D:\.net\SPM\obj\Debug\net10.0\SPM.pdb
+D:\.net\SPM\obj\Debug\net10.0\SPM.genruntimeconfig.cache
+D:\.net\SPM\obj\Debug\net10.0\ref\SPM.dll
