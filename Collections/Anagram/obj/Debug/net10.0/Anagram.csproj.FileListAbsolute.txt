@@ -1,0 +1,15 @@
+D:\.net\Collections\Anagram\obj\Debug\net10.0\Anagram.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\Collections\Anagram\obj\Debug\net10.0\Anagram.AssemblyInfoInputs.cache
+D:\.net\Collections\Anagram\obj\Debug\net10.0\Anagram.AssemblyInfo.cs
+D:\.net\Collections\Anagram\obj\Debug\net10.0\Anagram.csproj.CoreCompileInputs.cache
+D:\.net\Collections\Anagram\obj\Debug\net10.0\Anagram.sourcelink.json
+D:\.net\Collections\Anagram\bin\Debug\net10.0\Anagram.exe
+D:\.net\Collections\Anagram\bin\Debug\net10.0\Anagram.deps.json
+D:\.net\Collections\Anagram\bin\Debug\net10.0\Anagram.runtimeconfig.json
+D:\.net\Collections\Anagram\bin\Debug\net10.0\Anagram.dll
+D:\.net\Collections\Anagram\bin\Debug\net10.0\Anagram.pdb
+D:\.net\Collections\Anagram\obj\Debug\net10.0\Anagram.dll
+D:\.net\Collections\Anagram\obj\Debug\net10.0\refint\Anagram.dll
+D:\.net\Collections\Anagram\obj\Debug\net10.0\Anagram.pdb
+D:\.net\Collections\Anagram\obj\Debug\net10.0\Anagram.genruntimeconfig.cache
+D:\.net\Collections\Anagram\obj\Debug\net10.0\ref\Anagram.dll
