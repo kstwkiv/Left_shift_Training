@@ -1,46 +1,66 @@
 ﻿using System;
 using System.Linq;
 using System.Collections.Generic;
-using System.Globalization;
-using System.Security.Cryptography.X509Certificates;
+
 public class Sale
 {
-    public string Region{get;set;}="";
-    public string Category{get;set;}="";
-    public decimal Amount{get;set;}
-    public DateTime Date{get;set;}
-}
-public static List<(string Region, decimal TotalSales)> TotalSalesByRegion(List<Sale> sales)
-{
-    return sales
-        .GroupBy(s => s.Region)
-        .Select(g => (Region: g.Key, TotalSales: g.Sum(x => x.Amount)))
-        .OrderBy(x => x.Region)
-        .ToList();
+    public string Region { get; set; } = "";
+    public string Category { get; set; } = "";
+    public decimal Amount { get; set; }
+    public DateTime Date { get; set; }
 }
 
-public static List<(string Region, string Category, decimal Total)> TopCategoryPerRegion(List<Sale> sales)
+public static class SalesAnalyzer
 {
-    return sales
-        .GroupBy(s => s.Region)
-        .Select(regionGroup =>
-        {
-            var topCategory = regionGroup
-                .GroupBy(x => x.Category)
-                .Select(cat => new
-                {
-                    Category = cat.Key,
-                    Total = cat.Sum(x => x.Amount)
-                })
-                .OrderByDescending(x => x.Total)
-                .ThenBy(x => x.Category)
-                .First();
+    public static List<(string Region, decimal TotalSales)> TotalSalesByRegion(List<Sale> sales)
+    {
+        return sales
+            .GroupBy(s => s.Region)
+            .Select(g => (Region: g.Key, TotalSales: g.Sum(x => x.Amount)))
+            .OrderBy(x => x.Region)
+            .ToList();
+    }
 
-            return (regionGroup.Key, topCategory.Category, topCategory.Total);
-        })
-        .OrderBy(x => x.Key)
-        .Select(x => (x.Key, x.Category, x.Total))
-        .ToList();
+    public static List<(string Region, string Category, decimal Total)> TopCategoryPerRegion(List<Sale> sales)
+    {
+        return sales
+            .GroupBy(s => s.Region)
+            .Select(regionGroup =>
+            {
+                var topCategory = regionGroup
+                    .GroupBy(x => x.Category)
+                    .Select(cat => new
+                    {
+                        Category = cat.Key,
+                        Total = cat.Sum(x => x.Amount)
+                    })
+                    .OrderByDescending(x => x.Total)
+                    .ThenBy(x => x.Category)
+                    .First();
+
+                return (Region: regionGroup.Key,
+                        Category: topCategory.Category,
+                        Total: topCategory.Total);
+            })
+            .OrderBy(x => x.Region)
+            .ToList();
+    }
+
+    public static (DateTime Date, decimal Total) BestSalesDay(List<Sale> sales)
+    {
+        var result = sales
+            .GroupBy(s => s.Date.Date)
+            .Select(g => new
+            {
+                Date = g.Key,
+                Total = g.Sum(x => x.Amount)
+            })
+            .OrderByDescending(x => x.Total)
+            .ThenBy(x => x.Date)
+            .First();
+
+        return (result.Date, result.Total);
+    }
 }
 
 class Program
@@ -57,9 +77,9 @@ class Program
             new Sale { Region="East", Category="Furniture", Amount=8000, Date=new DateTime(2026,1,2)}
         };
 
-        var totalRegion = TotalSalesByRegion(sales);
-        var topCategory = TopCategoryPerRegion(sales);
-        var bestDay = BestSalesDay(sales);
+        var totalRegion = SalesAnalyzer.TotalSalesByRegion(sales);
+        var topCategory = SalesAnalyzer.TopCategoryPerRegion(sales);
+        var bestDay = SalesAnalyzer.BestSalesDay(sales);
 
         Console.WriteLine("Total Sales By Region");
         foreach (var r in totalRegion)
