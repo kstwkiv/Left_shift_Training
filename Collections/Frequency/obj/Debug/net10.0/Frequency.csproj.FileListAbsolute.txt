@@ -1,0 +1,15 @@
+D:\.net\Collections\Frequency\obj\Debug\net10.0\Frequency.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\Collections\Frequency\obj\Debug\net10.0\Frequency.AssemblyInfoInputs.cache
+D:\.net\Collections\Frequency\obj\Debug\net10.0\Frequency.AssemblyInfo.cs
+D:\.net\Collections\Frequency\obj\Debug\net10.0\Frequency.csproj.CoreCompileInputs.cache
+D:\.net\Collections\Frequency\obj\Debug\net10.0\Frequency.sourcelink.json
+D:\.net\Collections\Frequency\bin\Debug\net10.0\Frequency.exe
+D:\.net\Collections\Frequency\bin\Debug\net10.0\Frequency.deps.json
+D:\.net\Collections\Frequency\bin\Debug\net10.0\Frequency.runtimeconfig.json
+D:\.net\Collections\Frequency\bin\Debug\net10.0\Frequency.dll
+D:\.net\Collections\Frequency\bin\Debug\net10.0\Frequency.pdb
+D:\.net\Collections\Frequency\obj\Debug\net10.0\Frequency.dll
+D:\.net\Collections\Frequency\obj\Debug\net10.0\refint\Frequency.dll
+D:\.net\Collections\Frequency\obj\Debug\net10.0\Frequency.pdb
+D:\.net\Collections\Frequency\obj\Debug\net10.0\Frequency.genruntimeconfig.cache
+D:\.net\Collections\Frequency\obj\Debug\net10.0\ref\Frequency.dll

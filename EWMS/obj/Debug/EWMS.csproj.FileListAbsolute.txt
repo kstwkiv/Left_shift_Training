@@ -1,0 +1,7 @@
+D:\.net\EWMS\obj\Debug\EWMS.csproj.AssemblyReference.cache
+D:\.net\EWMS\obj\Debug\EWMS.csproj.CoreCompileInputs.cache
+D:\.net\EWMS\bin\Debug\LINQ_Assignment_BoilerPlateCode.exe.config
+D:\.net\EWMS\bin\Debug\LINQ_Assignment_BoilerPlateCode.exe
+D:\.net\EWMS\bin\Debug\LINQ_Assignment_BoilerPlateCode.pdb
+D:\.net\EWMS\obj\Debug\LINQ_Assignment_BoilerPlateCode.exe
+D:\.net\EWMS\obj\Debug\LINQ_Assignment_BoilerPlateCode.pdb

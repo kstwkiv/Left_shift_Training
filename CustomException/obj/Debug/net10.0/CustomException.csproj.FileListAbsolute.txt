@@ -1,0 +1,15 @@
+D:\.net\CustomException\obj\Debug\net10.0\CustomException.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\CustomException\obj\Debug\net10.0\CustomException.AssemblyInfoInputs.cache
+D:\.net\CustomException\obj\Debug\net10.0\CustomException.AssemblyInfo.cs
+D:\.net\CustomException\obj\Debug\net10.0\CustomException.csproj.CoreCompileInputs.cache
+D:\.net\CustomException\obj\Debug\net10.0\CustomException.sourcelink.json
+D:\.net\CustomException\bin\Debug\net10.0\CustomException.exe
+D:\.net\CustomException\bin\Debug\net10.0\CustomException.deps.json
+D:\.net\CustomException\bin\Debug\net10.0\CustomException.runtimeconfig.json
+D:\.net\CustomException\bin\Debug\net10.0\CustomException.dll
+D:\.net\CustomException\bin\Debug\net10.0\CustomException.pdb
+D:\.net\CustomException\obj\Debug\net10.0\CustomException.dll
+D:\.net\CustomException\obj\Debug\net10.0\refint\CustomException.dll
+D:\.net\CustomException\obj\Debug\net10.0\CustomException.pdb
+D:\.net\CustomException\obj\Debug\net10.0\CustomException.genruntimeconfig.cache
+D:\.net\CustomException\obj\Debug\net10.0\ref\CustomException.dll

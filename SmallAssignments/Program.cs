@@ -43,6 +43,13 @@ class Program
             }
         iter.Iteration(arr);
         
+        Employee e1 = new Employee(101, "Sathwika", 60000);
+
+        Employee e2 = new Employee(e1);
+
+        e1.Display();
+        e2.Display();
+
     }
 }
 }
