@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 create Function GetStudentName(@rollNo int) RETURNS varchar(20)
 begin
-declare @result varchar(20_;
+declare @result varchar(20);
 select @result=Name from StudentInfo;
 return @result;
 end
@@ -31,7 +31,7 @@ CDD-> CONNECTED,DATA ADAPTER,DATA SECT
 =======
 create Function GetStudentName(@rollNo int) RETURNS varchar(20)
 begin
-declare @result varchar(20_;
+declare @result varchar(20);
 select @result=Name from StudentInfo;
 return @result;
 end
