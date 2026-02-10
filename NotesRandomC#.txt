@@ -1,0 +1,29 @@
+create Function GetStudentName(@rollNo int) RETURNS varchar(20)
+begin
+declare @result varchar(20_;
+select @result=Name from StudentInfo;
+return @result;
+end
+
+
+select dbo.GetStudentName(104)
+
+Select @@rowcount-->rows altered 
+Select @@SERVERNAME-->Machine name in which you execute code
+Select @@CONNECTIONS --> no of connections can be connected witg this machine {Concurrent connections}
+
+
+
+1 lakh pages and 9784th one find--> assume you put 100 records in 1 page: then you will need to recor
+
+#Index creation
+-> Primary key initialted=== clustered index s also created -> automatically alaong wit the primary key
+-> non clustered you have to create on any colun
+249 maximum non clustered indexes, 1 clustered index[primary key]
+
+create NonClustered index idx_Studentnfo_Name on dbo.StudentInfo(Name)--> Non Clustered index created
+You can also drop any index created if that was earlier present in the table ;
+
+CONNECTED ARCHITECTURE:
+CCD-> CONNECTED,COMMAND,DATA READER
+CDD-> CONNECTED,DATA ADAPTER,DATA SECT
