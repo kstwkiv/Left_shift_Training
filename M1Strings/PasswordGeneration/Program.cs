@@ -5,6 +5,18 @@ class Program
     {
         return username.Length==8;
     }
+    public static bool IsUpperCase(string word)
+    {
+        if(word.Length!=4) return false;
+        foreach(char ch in word)
+        {
+            if(!char.IsUpper(ch) || !char.IsLetter(ch))
+            {
+                return false;
+            }
+        }
+        return true;
+    }
     public static bool IsCourse(string username)
     {
         string last=username.Substring(username.Length-3);
@@ -24,16 +36,18 @@ class Program
         pwd+=value;
         if (IsCourse(username))
         {
-            string ans=username.Substring(username.Length-3);
+            string ans=username.Substring(username.Length-2);
             pwd+=ans;
         }
+
+        return pwd;
     }
     public static string ascii(string word)
     {
         int add=0;
         foreach(char ch in word)
         {
-            add+=(int)ch;
+            add+=(int)(char.ToLower(ch));
         }
         return add.ToString();
     }
@@ -41,7 +55,7 @@ class Program
  static void Main(string[] args)
     {
         string username=Console.ReadLine();
-        if (!IsValid(username) || !IsCourse(username))
+        if (!IsValid(username) || !IsCourse(username ) || username[4]!='@' || !IsUpperCase(username.Substring(0,4)))
         {
             Console.WriteLine(username+" is an invalid username");
         }
