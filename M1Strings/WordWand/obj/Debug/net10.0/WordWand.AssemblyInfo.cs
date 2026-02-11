@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WordWand")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99230bbb9d1d1634adbb97111fdd3167d8160d35")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6bc0cfc7696327e10a16edfe615ca7bdf6bfd9c2")]
 [assembly: System.Reflection.AssemblyProductAttribute("WordWand")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WordWand")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
