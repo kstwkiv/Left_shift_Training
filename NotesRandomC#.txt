@@ -59,3 +59,14 @@ CONNECTED ARCHITECTURE:
 CCD-> CONNECTED,COMMAND,DATA READER
 CDD-> CONNECTED,DATA ADAPTER,DATA SECT
 >>>>>>> 13fee2dcd38fc62460722741edffeaa80165887c
+
+
+
+EntityFrameWork:
+1. Code first Approach
+2. DB first Approach
+3. Modal First Approach
+
+EntityFrameWork Core:
+1. Code first Approach
+2. DB first Approach
