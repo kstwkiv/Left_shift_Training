@@ -1,0 +1,151 @@
+@model FlightSearchEngine.Models.SearchViewModel
+
+@{
+    ViewData["Title"] = "Search Flights";
+}
+
+<!-- Hero Banner -->
+<div class="rounded-4 text-white text-center py-5 mb-4"
+     style="background: linear-gradient(135deg,#1a1a2e 0%,#0f3460 60%,#533483 100%);">
+    <i class="bi bi-airplane-engines-fill display-3"></i>
+    <h1 class="mt-2 fw-bold">Flight Search Engine</h1>
+    <p class="lead mb-0 text-white-50">Find the best flights and hotel packages instantly</p>
+</div>
+
+<!-- Search Card -->
+<div class="row justify-content-center">
+    <div class="col-lg-8">
+        <div class="card shadow-lg border-0 rounded-4">
+            <div class="card-header py-3 rounded-top-4"
+                 style="background: linear-gradient(90deg,#0f3460,#533483);">
+                <h4 class="mb-0 text-white">
+                    <i class="bi bi-search me-2"></i>Search Flights
+                </h4>
+            </div>
+            <div class="card-body p-4">
+
+                @* Validation Summary *@
+                <div asp-validation-summary="All" class="alert alert-danger" role="alert"
+                     style="display:@(ViewData.ModelState.IsValid ? "none" : "block")"></div>
+
+                <!-- FORM: both buttons share the same form; JavaScript sets the form action -->
+                <form id="searchForm" method="post" asp-antiforgery="true" novalidate>
+                    @Html.AntiForgeryToken()
+
+                    <div class="row g-3">
+                        <!-- Source -->
+                        <div class="col-md-4">
+                            <label asp-for="Source" class="form-label fw-semibold">
+                                <i class="bi bi-geo-alt-fill text-primary me-1"></i>Source City
+                            </label>
+                            <select asp-for="Source" asp-items="Model.SourceList"
+                                    class="form-select" id="sourceSelect">
+                                <option value="">-- Select Source --</option>
+                            </select>
+                            <span asp-validation-for="Source" class="text-danger small"></span>
+                        </div>
+
+                        <!-- Destination -->
+                        <div class="col-md-4">
+                            <label asp-for="Destination" class="form-label fw-semibold">
+                                <i class="bi bi-geo-fill text-danger me-1"></i>Destination City
+                            </label>
+                            <select asp-for="Destination" asp-items="Model.DestinationList"
+                                    class="form-select" id="destinationSelect">
+                                <option value="">-- Select Destination --</option>
+                            </select>
+                            <span asp-validation-for="Destination" class="text-danger small"></span>
+                        </div>
+
+                        <!-- Number of Persons -->
+                        <div class="col-md-4">
+                            <label asp-for="NumberOfPersons" class="form-label fw-semibold">
+                                <i class="bi bi-people-fill text-success me-1"></i>No. of Persons
+                            </label>
+                            <input asp-for="NumberOfPersons" type="number" min="1" max="10"
+                                   class="form-control" placeholder="1–10" />
+                            <span asp-validation-for="NumberOfPersons" class="text-danger small"></span>
+                        </div>
+                    </div>
+
+                    <!-- Same / empty selection error -->
+                    <div id="sameLocationError" class="alert alert-warning mt-3 d-none">
+                        <i class="bi bi-exclamation-triangle-fill me-1"></i>
+                        Source and Destination cannot be the same city.
+                    </div>
+
+                    <!-- Buttons -->
+                    <div class="d-flex gap-3 mt-4">
+                        <button type="submit" id="btnFlightOnly"
+                                class="btn btn-success btn-lg flex-fill"
+                                formaction="/Flight/SearchFlights">
+                            <i class="bi bi-airplane me-2"></i>Search Flights Only
+                            <span class="spinner-border spinner-border-sm ms-2 d-none" id="spinnerFlight"></span>
+                        </button>
+
+                        <button type="submit" id="btnFlightHotel"
+                                class="btn btn-warning btn-lg flex-fill text-dark fw-semibold"
+                                formaction="/Flight/SearchFlightsWithHotels">
+                            <i class="bi bi-building me-2"></i>Search Flight + Hotel
+                            <span class="spinner-border spinner-border-sm ms-2 d-none" id="spinnerHotel"></span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Info Card -->
+        <div class="card border-0 bg-white rounded-4 shadow-sm mt-4">
+            <div class="card-body p-3">
+                <div class="row text-center g-3">
+                    <div class="col-4">
+                        <i class="bi bi-shield-check-fill text-success fs-3"></i>
+                        <p class="small mb-0 mt-1 fw-semibold">Secure Booking</p>
+                    </div>
+                    <div class="col-4">
+                        <i class="bi bi-lightning-charge-fill text-warning fs-3"></i>
+                        <p class="small mb-0 mt-1 fw-semibold">Instant Results</p>
+                    </div>
+                    <div class="col-4">
+                        <i class="bi bi-star-fill text-primary fs-3"></i>
+                        <p class="small mb-0 mt-1 fw-semibold">Best Prices</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+<script>
+    const srcSel  = document.getElementById('sourceSelect');
+    const dstSel  = document.getElementById('destinationSelect');
+    const errDiv  = document.getElementById('sameLocationError');
+    const form    = document.getElementById('searchForm');
+
+    function sameCheck() {
+        if (srcSel.value && dstSel.value && srcSel.value === dstSel.value) {
+            errDiv.classList.remove('d-none');
+            return true;
+        }
+        errDiv.classList.add('d-none');
+        return false;
+    }
+
+    srcSel.addEventListener('change', sameCheck);
+    dstSel.addEventListener('change', sameCheck);
+
+    // Spinner + same-location guard before submit
+    document.getElementById('btnFlightOnly').addEventListener('click', function (e) {
+        if (sameCheck()) { e.preventDefault(); return; }
+        document.getElementById('spinnerFlight').classList.remove('d-none');
+        this.disabled = true;
+    });
+
+    document.getElementById('btnFlightHotel').addEventListener('click', function (e) {
+        if (sameCheck()) { e.preventDefault(); return; }
+        document.getElementById('spinnerHotel').classList.remove('d-none');
+        this.disabled = true;
+    });
+</script>
+}
