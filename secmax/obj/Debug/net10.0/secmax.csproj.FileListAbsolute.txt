@@ -1,0 +1,15 @@
+D:\.net\secmax\obj\Debug\net10.0\secmax.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\secmax\obj\Debug\net10.0\secmax.AssemblyInfoInputs.cache
+D:\.net\secmax\obj\Debug\net10.0\secmax.AssemblyInfo.cs
+D:\.net\secmax\obj\Debug\net10.0\secmax.csproj.CoreCompileInputs.cache
+D:\.net\secmax\obj\Debug\net10.0\secmax.sourcelink.json
+D:\.net\secmax\bin\Debug\net10.0\secmax.exe
+D:\.net\secmax\bin\Debug\net10.0\secmax.deps.json
+D:\.net\secmax\bin\Debug\net10.0\secmax.runtimeconfig.json
+D:\.net\secmax\bin\Debug\net10.0\secmax.dll
+D:\.net\secmax\bin\Debug\net10.0\secmax.pdb
+D:\.net\secmax\obj\Debug\net10.0\secmax.dll
+D:\.net\secmax\obj\Debug\net10.0\refint\secmax.dll
+D:\.net\secmax\obj\Debug\net10.0\secmax.pdb
+D:\.net\secmax\obj\Debug\net10.0\secmax.genruntimeconfig.cache
+D:\.net\secmax\obj\Debug\net10.0\ref\secmax.dll

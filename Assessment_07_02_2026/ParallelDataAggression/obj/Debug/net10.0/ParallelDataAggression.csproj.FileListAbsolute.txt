@@ -1,0 +1,15 @@
+D:\.net\Assessment_07_02_2026\ParallelDataAggression\obj\Debug\net10.0\ParallelDataAggression.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\Assessment_07_02_2026\ParallelDataAggression\obj\Debug\net10.0\ParallelDataAggression.AssemblyInfoInputs.cache
+D:\.net\Assessment_07_02_2026\ParallelDataAggression\obj\Debug\net10.0\ParallelDataAggression.AssemblyInfo.cs
+D:\.net\Assessment_07_02_2026\ParallelDataAggression\obj\Debug\net10.0\ParallelDataAggression.csproj.CoreCompileInputs.cache
+D:\.net\Assessment_07_02_2026\ParallelDataAggression\obj\Debug\net10.0\ParallelDataAggression.sourcelink.json
+D:\.net\Assessment_07_02_2026\ParallelDataAggression\bin\Debug\net10.0\ParallelDataAggression.exe
+D:\.net\Assessment_07_02_2026\ParallelDataAggression\bin\Debug\net10.0\ParallelDataAggression.deps.json
+D:\.net\Assessment_07_02_2026\ParallelDataAggression\bin\Debug\net10.0\ParallelDataAggression.runtimeconfig.json
+D:\.net\Assessment_07_02_2026\ParallelDataAggression\bin\Debug\net10.0\ParallelDataAggression.dll
+D:\.net\Assessment_07_02_2026\ParallelDataAggression\bin\Debug\net10.0\ParallelDataAggression.pdb
+D:\.net\Assessment_07_02_2026\ParallelDataAggression\obj\Debug\net10.0\ParallelDataAggression.dll
+D:\.net\Assessment_07_02_2026\ParallelDataAggression\obj\Debug\net10.0\refint\ParallelDataAggression.dll
+D:\.net\Assessment_07_02_2026\ParallelDataAggression\obj\Debug\net10.0\ParallelDataAggression.pdb
+D:\.net\Assessment_07_02_2026\ParallelDataAggression\obj\Debug\net10.0\ParallelDataAggression.genruntimeconfig.cache
+D:\.net\Assessment_07_02_2026\ParallelDataAggression\obj\Debug\net10.0\ref\ParallelDataAggression.dll

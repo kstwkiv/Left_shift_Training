@@ -1,0 +1,15 @@
+D:\.net\StudentProfile\obj\Debug\net10.0\StudentProfile.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\StudentProfile\obj\Debug\net10.0\StudentProfile.AssemblyInfoInputs.cache
+D:\.net\StudentProfile\obj\Debug\net10.0\StudentProfile.AssemblyInfo.cs
+D:\.net\StudentProfile\obj\Debug\net10.0\StudentProfile.csproj.CoreCompileInputs.cache
+D:\.net\StudentProfile\obj\Debug\net10.0\StudentProfile.sourcelink.json
+D:\.net\StudentProfile\bin\Debug\net10.0\StudentProfile.exe
+D:\.net\StudentProfile\bin\Debug\net10.0\StudentProfile.deps.json
+D:\.net\StudentProfile\bin\Debug\net10.0\StudentProfile.runtimeconfig.json
+D:\.net\StudentProfile\bin\Debug\net10.0\StudentProfile.dll
+D:\.net\StudentProfile\bin\Debug\net10.0\StudentProfile.pdb
+D:\.net\StudentProfile\obj\Debug\net10.0\StudentProfile.dll
+D:\.net\StudentProfile\obj\Debug\net10.0\refint\StudentProfile.dll
+D:\.net\StudentProfile\obj\Debug\net10.0\StudentProfile.pdb
+D:\.net\StudentProfile\obj\Debug\net10.0\StudentProfile.genruntimeconfig.cache
+D:\.net\StudentProfile\obj\Debug\net10.0\ref\StudentProfile.dll

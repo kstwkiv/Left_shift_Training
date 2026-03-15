@@ -1,0 +1,15 @@
+D:\.net\DigitalPettyCashLedger\obj\Debug\net10.0\DigitalPettyCashLedger.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\DigitalPettyCashLedger\obj\Debug\net10.0\DigitalPettyCashLedger.AssemblyInfoInputs.cache
+D:\.net\DigitalPettyCashLedger\obj\Debug\net10.0\DigitalPettyCashLedger.AssemblyInfo.cs
+D:\.net\DigitalPettyCashLedger\obj\Debug\net10.0\DigitalPettyCashLedger.csproj.CoreCompileInputs.cache
+D:\.net\DigitalPettyCashLedger\obj\Debug\net10.0\DigitalPettyCashLedger.sourcelink.json
+D:\.net\DigitalPettyCashLedger\bin\Debug\net10.0\DigitalPettyCashLedger.exe
+D:\.net\DigitalPettyCashLedger\bin\Debug\net10.0\DigitalPettyCashLedger.deps.json
+D:\.net\DigitalPettyCashLedger\bin\Debug\net10.0\DigitalPettyCashLedger.runtimeconfig.json
+D:\.net\DigitalPettyCashLedger\bin\Debug\net10.0\DigitalPettyCashLedger.dll
+D:\.net\DigitalPettyCashLedger\bin\Debug\net10.0\DigitalPettyCashLedger.pdb
+D:\.net\DigitalPettyCashLedger\obj\Debug\net10.0\DigitalPettyCashLedger.dll
+D:\.net\DigitalPettyCashLedger\obj\Debug\net10.0\refint\DigitalPettyCashLedger.dll
+D:\.net\DigitalPettyCashLedger\obj\Debug\net10.0\DigitalPettyCashLedger.pdb
+D:\.net\DigitalPettyCashLedger\obj\Debug\net10.0\DigitalPettyCashLedger.genruntimeconfig.cache
+D:\.net\DigitalPettyCashLedger\obj\Debug\net10.0\ref\DigitalPettyCashLedger.dll

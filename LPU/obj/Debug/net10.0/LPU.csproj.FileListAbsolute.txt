@@ -1,0 +1,15 @@
+D:\.net\LPU\bin\Debug\net10.0\LPU.exe
+D:\.net\LPU\bin\Debug\net10.0\LPU.deps.json
+D:\.net\LPU\bin\Debug\net10.0\LPU.runtimeconfig.json
+D:\.net\LPU\bin\Debug\net10.0\LPU.dll
+D:\.net\LPU\bin\Debug\net10.0\LPU.pdb
+D:\.net\LPU\obj\Debug\net10.0\LPU.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\LPU\obj\Debug\net10.0\LPU.AssemblyInfoInputs.cache
+D:\.net\LPU\obj\Debug\net10.0\LPU.AssemblyInfo.cs
+D:\.net\LPU\obj\Debug\net10.0\LPU.csproj.CoreCompileInputs.cache
+D:\.net\LPU\obj\Debug\net10.0\LPU.sourcelink.json
+D:\.net\LPU\obj\Debug\net10.0\LPU.dll
+D:\.net\LPU\obj\Debug\net10.0\refint\LPU.dll
+D:\.net\LPU\obj\Debug\net10.0\LPU.pdb
+D:\.net\LPU\obj\Debug\net10.0\LPU.genruntimeconfig.cache
+D:\.net\LPU\obj\Debug\net10.0\ref\LPU.dll

@@ -1,0 +1,15 @@
+D:\.net\Sam Cake\obj\Debug\net10.0\Sam Cake.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\Sam Cake\obj\Debug\net10.0\Sam Cake.AssemblyInfoInputs.cache
+D:\.net\Sam Cake\obj\Debug\net10.0\Sam Cake.AssemblyInfo.cs
+D:\.net\Sam Cake\obj\Debug\net10.0\Sam Cake.csproj.CoreCompileInputs.cache
+D:\.net\Sam Cake\obj\Debug\net10.0\Sam Cake.sourcelink.json
+D:\.net\Sam Cake\bin\Debug\net10.0\Sam Cake.exe
+D:\.net\Sam Cake\bin\Debug\net10.0\Sam Cake.deps.json
+D:\.net\Sam Cake\bin\Debug\net10.0\Sam Cake.runtimeconfig.json
+D:\.net\Sam Cake\bin\Debug\net10.0\Sam Cake.dll
+D:\.net\Sam Cake\bin\Debug\net10.0\Sam Cake.pdb
+D:\.net\Sam Cake\obj\Debug\net10.0\Sam Cake.dll
+D:\.net\Sam Cake\obj\Debug\net10.0\refint\Sam Cake.dll
+D:\.net\Sam Cake\obj\Debug\net10.0\Sam Cake.pdb
+D:\.net\Sam Cake\obj\Debug\net10.0\Sam Cake.genruntimeconfig.cache
+D:\.net\Sam Cake\obj\Debug\net10.0\ref\Sam Cake.dll

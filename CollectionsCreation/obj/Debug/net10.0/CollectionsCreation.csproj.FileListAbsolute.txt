@@ -1,0 +1,15 @@
+D:\.net\CollectionsCreation\obj\Debug\net10.0\CollectionsCreation.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\CollectionsCreation\obj\Debug\net10.0\CollectionsCreation.AssemblyInfoInputs.cache
+D:\.net\CollectionsCreation\obj\Debug\net10.0\CollectionsCreation.AssemblyInfo.cs
+D:\.net\CollectionsCreation\obj\Debug\net10.0\CollectionsCreation.csproj.CoreCompileInputs.cache
+D:\.net\CollectionsCreation\obj\Debug\net10.0\CollectionsCreation.sourcelink.json
+D:\.net\CollectionsCreation\bin\Debug\net10.0\CollectionsCreation.exe
+D:\.net\CollectionsCreation\bin\Debug\net10.0\CollectionsCreation.deps.json
+D:\.net\CollectionsCreation\bin\Debug\net10.0\CollectionsCreation.runtimeconfig.json
+D:\.net\CollectionsCreation\bin\Debug\net10.0\CollectionsCreation.dll
+D:\.net\CollectionsCreation\bin\Debug\net10.0\CollectionsCreation.pdb
+D:\.net\CollectionsCreation\obj\Debug\net10.0\CollectionsCreation.dll
+D:\.net\CollectionsCreation\obj\Debug\net10.0\refint\CollectionsCreation.dll
+D:\.net\CollectionsCreation\obj\Debug\net10.0\CollectionsCreation.pdb
+D:\.net\CollectionsCreation\obj\Debug\net10.0\CollectionsCreation.genruntimeconfig.cache
+D:\.net\CollectionsCreation\obj\Debug\net10.0\ref\CollectionsCreation.dll

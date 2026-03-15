@@ -1,0 +1,15 @@
+D:\.net\DesktopPriceCalculator\obj\Debug\net10.0\DesktopPriceCalculator.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\DesktopPriceCalculator\obj\Debug\net10.0\DesktopPriceCalculator.AssemblyInfoInputs.cache
+D:\.net\DesktopPriceCalculator\obj\Debug\net10.0\DesktopPriceCalculator.AssemblyInfo.cs
+D:\.net\DesktopPriceCalculator\obj\Debug\net10.0\DesktopPriceCalculator.csproj.CoreCompileInputs.cache
+D:\.net\DesktopPriceCalculator\obj\Debug\net10.0\DesktopPriceCalculator.sourcelink.json
+D:\.net\DesktopPriceCalculator\bin\Debug\net10.0\DesktopPriceCalculator.exe
+D:\.net\DesktopPriceCalculator\bin\Debug\net10.0\DesktopPriceCalculator.deps.json
+D:\.net\DesktopPriceCalculator\bin\Debug\net10.0\DesktopPriceCalculator.runtimeconfig.json
+D:\.net\DesktopPriceCalculator\bin\Debug\net10.0\DesktopPriceCalculator.dll
+D:\.net\DesktopPriceCalculator\bin\Debug\net10.0\DesktopPriceCalculator.pdb
+D:\.net\DesktopPriceCalculator\obj\Debug\net10.0\DesktopPriceCalculator.dll
+D:\.net\DesktopPriceCalculator\obj\Debug\net10.0\refint\DesktopPriceCalculator.dll
+D:\.net\DesktopPriceCalculator\obj\Debug\net10.0\DesktopPriceCalculator.pdb
+D:\.net\DesktopPriceCalculator\obj\Debug\net10.0\DesktopPriceCalculator.genruntimeconfig.cache
+D:\.net\DesktopPriceCalculator\obj\Debug\net10.0\ref\DesktopPriceCalculator.dll

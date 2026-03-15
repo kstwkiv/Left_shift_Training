@@ -1,0 +1,30 @@
+# Build results
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Rider / VS Code
+.idea/
+.vscode/
+
+# Compiled files
+*.dll
+*.exe
+*.pdb
+
+# Logs
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# NuGet packages
+packages/
+
+# Zip / archives
+*.zip

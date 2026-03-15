@@ -1,0 +1,15 @@
+D:\.net\PhoneSubscriptionWithDelegates\bin\Debug\net10.0\PhoneSubscriptionWithDelegates.exe
+D:\.net\PhoneSubscriptionWithDelegates\bin\Debug\net10.0\PhoneSubscriptionWithDelegates.deps.json
+D:\.net\PhoneSubscriptionWithDelegates\bin\Debug\net10.0\PhoneSubscriptionWithDelegates.runtimeconfig.json
+D:\.net\PhoneSubscriptionWithDelegates\bin\Debug\net10.0\PhoneSubscriptionWithDelegates.dll
+D:\.net\PhoneSubscriptionWithDelegates\bin\Debug\net10.0\PhoneSubscriptionWithDelegates.pdb
+D:\.net\PhoneSubscriptionWithDelegates\obj\Debug\net10.0\PhoneSubscriptionWithDelegates.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\PhoneSubscriptionWithDelegates\obj\Debug\net10.0\PhoneSubscriptionWithDelegates.AssemblyInfoInputs.cache
+D:\.net\PhoneSubscriptionWithDelegates\obj\Debug\net10.0\PhoneSubscriptionWithDelegates.AssemblyInfo.cs
+D:\.net\PhoneSubscriptionWithDelegates\obj\Debug\net10.0\PhoneSubscriptionWithDelegates.csproj.CoreCompileInputs.cache
+D:\.net\PhoneSubscriptionWithDelegates\obj\Debug\net10.0\PhoneSubscriptionWithDelegates.sourcelink.json
+D:\.net\PhoneSubscriptionWithDelegates\obj\Debug\net10.0\PhoneSubscriptionWithDelegates.dll
+D:\.net\PhoneSubscriptionWithDelegates\obj\Debug\net10.0\refint\PhoneSubscriptionWithDelegates.dll
+D:\.net\PhoneSubscriptionWithDelegates\obj\Debug\net10.0\PhoneSubscriptionWithDelegates.pdb
+D:\.net\PhoneSubscriptionWithDelegates\obj\Debug\net10.0\PhoneSubscriptionWithDelegates.genruntimeconfig.cache
+D:\.net\PhoneSubscriptionWithDelegates\obj\Debug\net10.0\ref\PhoneSubscriptionWithDelegates.dll

@@ -1,0 +1,15 @@
+D:\.net\SmallAssignments\obj\Debug\net10.0\SmallAssignments.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\SmallAssignments\obj\Debug\net10.0\SmallAssignments.AssemblyInfoInputs.cache
+D:\.net\SmallAssignments\obj\Debug\net10.0\SmallAssignments.AssemblyInfo.cs
+D:\.net\SmallAssignments\obj\Debug\net10.0\SmallAssignments.csproj.CoreCompileInputs.cache
+D:\.net\SmallAssignments\obj\Debug\net10.0\SmallAssignments.sourcelink.json
+D:\.net\SmallAssignments\bin\Debug\net10.0\SmallAssignments.exe
+D:\.net\SmallAssignments\bin\Debug\net10.0\SmallAssignments.deps.json
+D:\.net\SmallAssignments\bin\Debug\net10.0\SmallAssignments.runtimeconfig.json
+D:\.net\SmallAssignments\bin\Debug\net10.0\SmallAssignments.dll
+D:\.net\SmallAssignments\bin\Debug\net10.0\SmallAssignments.pdb
+D:\.net\SmallAssignments\obj\Debug\net10.0\SmallAssignments.dll
+D:\.net\SmallAssignments\obj\Debug\net10.0\refint\SmallAssignments.dll
+D:\.net\SmallAssignments\obj\Debug\net10.0\SmallAssignments.pdb
+D:\.net\SmallAssignments\obj\Debug\net10.0\SmallAssignments.genruntimeconfig.cache
+D:\.net\SmallAssignments\obj\Debug\net10.0\ref\SmallAssignments.dll
