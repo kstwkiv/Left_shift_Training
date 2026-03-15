@@ -1,0 +1,42 @@
+﻿@model Studentui.Models.Student
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<div class="row justify-content-center">
+    <div class="col-lg-5">
+        <div class="card border-danger" style="border-width:1.5px!important">
+            <div class="card-header py-3 px-4" style="background:#dc2626;color:#fff">
+                <h5 class="mb-0">
+                    <i class="bi bi-exclamation-triangle me-2"></i>Confirm Delete
+                </h5>
+            </div>
+            <div class="card-body p-4 text-center">
+                <div class="mb-3" style="font-size:3rem;">&#128564;</div>
+                <p class="fs-5">
+                    Are you sure you want to delete<br />
+                    <strong>@Model.FullName</strong>?
+                </p>
+                <p class="text-muted small">
+                    @Model.Email &bull; @Model.Course
+                </p>
+                <p class="alert alert-warning small mt-3">
+                    <i class="bi bi-info-circle me-1"></i>
+                    This action is permanent and cannot be undone.
+                </p>
+            </div>
+            <div class="card-footer bg-transparent px-4 py-3 d-flex gap-2 justify-content-center">
+                <a asp-action="Index" class="btn btn-outline-secondary px-4">
+                    <i class="bi bi-arrow-left me-1"></i>Cancel
+                </a>
+                <form asp-action="Delete" method="post" class="d-inline">
+                    <input type="hidden" asp-for="StudentId" />
+                    <button type="submit" class="btn btn-danger px-4">
+                        <i class="bi bi-trash me-1"></i>Yes, Delete
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

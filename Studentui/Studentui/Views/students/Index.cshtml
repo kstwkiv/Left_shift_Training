@@ -1,0 +1,125 @@
+﻿@model IEnumerable<Studentui.Models.Student>
+
+@{
+    ViewData["Title"] = "All Students";
+    var total = Model.Count();
+    var active = Model.Count(s => s.IsActive);
+    var inactive = total - active;
+}
+
+<div class="row g-3 mb-4">
+    <div class="col-sm-4">
+        <div class="card text-center py-3">
+            <div class="fs-1 fw-bold" style="color:#4f46e5">@total</div>
+            <div class="text-muted small">Total Students</div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="card text-center py-3">
+            <div class="fs-1 fw-bold text-success">@active</div>
+            <div class="text-muted small">Active</div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="card text-center py-3">
+            <div class="fs-1 fw-bold text-danger">@inactive</div>
+            <div class="text-muted small">Inactive</div>
+        </div>
+    </div>
+</div>
+
+<!-- Table card -->
+<div class="card">
+    <div class="card-header d-flex justify-content-between align-items-center py-3 px-4">
+        <h5 class="mb-0"><i class="bi bi-people-fill me-2"></i>Student Records</h5>
+        <a asp-action="Create" class="btn btn-light btn-sm fw-semibold">
+            <i class="bi bi-person-plus me-1"></i>Add Student
+        </a>
+    </div>
+    <div class="card-body px-4 py-3">
+
+        <!-- Live search -->
+        <input id="search" type="text" class="form-control mb-3" placeholder="&#x1F50D; Search by name, email or course…">
+
+        @if (!Model.Any())
+        {
+            <div class="text-center py-5 text-muted">
+                <i class="bi bi-inbox fs-1 d-block mb-2"></i>No students found.
+                <a asp-action="Create">Add the first one.</a>
+            </div>
+        }
+        else
+        {
+            <div class="table-responsive">
+                <table class="table table-hover align-middle mb-0" id="studentTable">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Course</th>
+                            <th>Enrolled</th>
+                            <th>Status</th>
+                            <th class="text-end">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var s in Model)
+                        {
+                            <tr>
+                                <td class="text-muted small">@s.StudentId</td>
+                                <td>
+                                    <strong>@s.FirstName @s.LastName</strong>
+                                    @if (s.DateOfBirth.HasValue)
+                                    {
+                                        <div class="text-muted" style="font-size:.78rem">
+                                            @s.DateOfBirth.Value.ToString("dd MMM yyyy")
+                                        </div>
+                                    }
+                                </td>
+                                <td class="small">@s.Email</td>
+                                <td class="small">@s.Course</td>
+                                <td class="small">@s.EnrollDate.ToString("dd MMM yyyy")</td>
+                                <td>
+                                    @if (s.IsActive)
+                                    {
+                                        <span class="badge rounded-pill badge-active px-3 py-1">Active</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge rounded-pill badge-inactive px-3 py-1">Inactive</span>
+                                    }
+                                </td>
+                                <td class="text-end">
+                                    <a asp-action="Details" asp-route-id="@s.StudentId"
+                                       class="btn btn-outline-secondary btn-sm" title="Details">
+                                        <i class="bi bi-eye"></i>
+                                    </a>
+                                    <a asp-action="Edit" asp-route-id="@s.StudentId"
+                                       class="btn btn-outline-primary btn-sm" title="Edit">
+                                        <i class="bi bi-pencil"></i>
+                                    </a>
+                                    <a asp-action="Delete" asp-route-id="@s.StudentId"
+                                       class="btn btn-outline-danger btn-sm" title="Delete">
+                                        <i class="bi bi-trash"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        }
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.getElementById('search').addEventListener('input', function () {
+            const q = this.value.toLowerCase();
+            document.querySelectorAll('#studentTable tbody tr').forEach(row => {
+                row.style.display = row.textContent.toLowerCase().includes(q) ? '' : 'none';
+            });
+        });
+    </script>
+}

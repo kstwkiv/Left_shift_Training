@@ -1,0 +1,211 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.net\\StudentUI\\Studentui\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D82E8D-BB6C-4A24-96DA-B931217C43E6}|Studentui\\Studentui.csproj|d:\\.net\\studentui\\studentui\\studentui\\views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0D82E8D-BB6C-4A24-96DA-B931217C43E6}|Studentui\\Studentui.csproj|solutionrelative:studentui\\views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D82E8D-BB6C-4A24-96DA-B931217C43E6}|Studentui\\Studentui.csproj|d:\\.net\\studentui\\studentui\\studentui\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D82E8D-BB6C-4A24-96DA-B931217C43E6}|Studentui\\Studentui.csproj|solutionrelative:studentui\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D82E8D-BB6C-4A24-96DA-B931217C43E6}|Studentui\\Studentui.csproj|d:\\.net\\studentui\\studentui\\studentui\\views\\students\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0D82E8D-BB6C-4A24-96DA-B931217C43E6}|Studentui\\Studentui.csproj|solutionrelative:studentui\\views\\students\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D82E8D-BB6C-4A24-96DA-B931217C43E6}|Studentui\\Studentui.csproj|d:\\.net\\studentui\\studentui\\studentui\\views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0D82E8D-BB6C-4A24-96DA-B931217C43E6}|Studentui\\Studentui.csproj|solutionrelative:studentui\\views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D82E8D-BB6C-4A24-96DA-B931217C43E6}|Studentui\\Studentui.csproj|d:\\.net\\studentui\\studentui\\studentui\\views\\students\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0D82E8D-BB6C-4A24-96DA-B931217C43E6}|Studentui\\Studentui.csproj|solutionrelative:studentui\\views\\students\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D82E8D-BB6C-4A24-96DA-B931217C43E6}|Studentui\\Studentui.csproj|d:\\.net\\studentui\\studentui\\studentui\\views\\students\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0D82E8D-BB6C-4A24-96DA-B931217C43E6}|Studentui\\Studentui.csproj|solutionrelative:studentui\\views\\students\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D82E8D-BB6C-4A24-96DA-B931217C43E6}|Studentui\\Studentui.csproj|d:\\.net\\studentui\\studentui\\studentui\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D82E8D-BB6C-4A24-96DA-B931217C43E6}|Studentui\\Studentui.csproj|solutionrelative:studentui\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D82E8D-BB6C-4A24-96DA-B931217C43E6}|Studentui\\Studentui.csproj|d:\\.net\\studentui\\studentui\\studentui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E0D82E8D-BB6C-4A24-96DA-B931217C43E6}|Studentui\\Studentui.csproj|solutionrelative:studentui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D82E8D-BB6C-4A24-96DA-B931217C43E6}|Studentui\\Studentui.csproj|d:\\.net\\studentui\\studentui\\studentui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D82E8D-BB6C-4A24-96DA-B931217C43E6}|Studentui\\Studentui.csproj|solutionrelative:studentui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D82E8D-BB6C-4A24-96DA-B931217C43E6}|Studentui\\Studentui.csproj|d:\\.net\\studentui\\studentui\\studentui\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D82E8D-BB6C-4A24-96DA-B931217C43E6}|Studentui\\Studentui.csproj|solutionrelative:studentui\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D82E8D-BB6C-4A24-96DA-B931217C43E6}|Studentui\\Studentui.csproj|d:\\.net\\studentui\\studentui\\studentui\\studentui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E0D82E8D-BB6C-4A24-96DA-B931217C43E6}|Studentui\\Studentui.csproj|solutionrelative:studentui\\studentui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\.net\\StudentUI\\Studentui\\Studentui\\Views\\students\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Studentui\\Views\\students\\Delete.cshtml",
+              "ToolTip": "D:\\.net\\StudentUI\\Studentui\\Studentui\\Views\\students\\Delete.cshtml",
+              "RelativeToolTip": "Studentui\\Views\\students\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-15T14:16:00.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\.net\\StudentUI\\Studentui\\Studentui\\Views\\students\\Create.cshtml",
+              "RelativeDocumentMoniker": "Studentui\\Views\\students\\Create.cshtml",
+              "ToolTip": "D:\\.net\\StudentUI\\Studentui\\Studentui\\Views\\students\\Create.cshtml",
+              "RelativeToolTip": "Studentui\\Views\\students\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-15T14:14:58.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\.net\\StudentUI\\Studentui\\Studentui\\Views\\students\\Details.cshtml",
+              "RelativeDocumentMoniker": "Studentui\\Views\\students\\Details.cshtml",
+              "ToolTip": "D:\\.net\\StudentUI\\Studentui\\Studentui\\Views\\students\\Details.cshtml",
+              "RelativeToolTip": "Studentui\\Views\\students\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-15T14:14:03.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\.net\\StudentUI\\Studentui\\Studentui\\Views\\students\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Studentui\\Views\\students\\Edit.cshtml",
+              "ToolTip": "D:\\.net\\StudentUI\\Studentui\\Studentui\\Views\\students\\Edit.cshtml",
+              "RelativeToolTip": "Studentui\\Views\\students\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-15T14:13:02.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\.net\\StudentUI\\Studentui\\Studentui\\Views\\students\\Index.cshtml",
+              "RelativeDocumentMoniker": "Studentui\\Views\\students\\Index.cshtml",
+              "ToolTip": "D:\\.net\\StudentUI\\Studentui\\Studentui\\Views\\students\\Index.cshtml",
+              "RelativeToolTip": "Studentui\\Views\\students\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-15T14:11:42.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\.net\\StudentUI\\Studentui\\Studentui\\appsettings.json",
+              "RelativeDocumentMoniker": "Studentui\\appsettings.json",
+              "ToolTip": "D:\\.net\\StudentUI\\Studentui\\Studentui\\appsettings.json",
+              "RelativeToolTip": "Studentui\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-15T14:08:48.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.net\\StudentUI\\Studentui\\Studentui\\Program.cs",
+              "RelativeDocumentMoniker": "Studentui\\Program.cs",
+              "ToolTip": "D:\\.net\\StudentUI\\Studentui\\Studentui\\Program.cs",
+              "RelativeToolTip": "Studentui\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T14:08:09.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "D:\\.net\\StudentUI\\Studentui\\Studentui\\Repositories\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "Studentui\\Repositories\\StudentRepository.cs",
+              "ToolTip": "D:\\.net\\StudentUI\\Studentui\\Studentui\\Repositories\\StudentRepository.cs",
+              "RelativeToolTip": "Studentui\\Repositories\\StudentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T14:05:27.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Studentui",
+              "DocumentMoniker": "D:\\.net\\StudentUI\\Studentui\\Studentui\\Studentui.csproj",
+              "RelativeDocumentMoniker": "Studentui\\Studentui.csproj",
+              "ToolTip": "D:\\.net\\StudentUI\\Studentui\\Studentui\\Studentui.csproj",
+              "RelativeToolTip": "Studentui\\Studentui.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-15T14:05:00.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\.net\\StudentUI\\Studentui\\Studentui\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Studentui\\Models\\Student.cs",
+              "ToolTip": "D:\\.net\\StudentUI\\Studentui\\Studentui\\Models\\Student.cs",
+              "RelativeToolTip": "Studentui\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T14:04:52.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "D:\\.net\\StudentUI\\Studentui\\Studentui\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "Studentui\\Controllers\\StudentsController.cs",
+              "ToolTip": "D:\\.net\\StudentUI\\Studentui\\Studentui\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "Studentui\\Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T14:03:57.448Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
