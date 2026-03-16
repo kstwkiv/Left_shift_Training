@@ -1,0 +1,9 @@
+D:\.net\PRS\PRS\obj\Debug\net10.0\PRS.csproj.AssemblyReference.cache
+D:\.net\PRS\PRS\obj\Debug\net10.0\rpswa.dswa.cache.json
+D:\.net\PRS\PRS\obj\Debug\net10.0\PRS.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\PRS\PRS\obj\Debug\net10.0\PRS.AssemblyInfoInputs.cache
+D:\.net\PRS\PRS\obj\Debug\net10.0\PRS.AssemblyInfo.cs
+D:\.net\PRS\PRS\obj\Debug\net10.0\PRS.csproj.CoreCompileInputs.cache
+D:\.net\PRS\PRS\obj\Debug\net10.0\PRS.MvcApplicationPartsAssemblyInfo.cs
+D:\.net\PRS\PRS\obj\Debug\net10.0\PRS.MvcApplicationPartsAssemblyInfo.cache
+D:\.net\PRS\PRS\obj\Debug\net10.0\PRS.sourcelink.json
